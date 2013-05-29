@@ -70,4 +70,9 @@ secondStateIconName:(NSString *)secondIconName
                fourthIconName:(NSString *)fourthIconName
                   fourthColor:(UIColor *)fourthColor;
 
+- (void)moveWithoutGestureTranslation:(CGFloat)translation;
+- (void)bounceToOrigin;
+
+- (void)animateWithOffset:(CGFloat)offset;
+
 @end
